@@ -37,7 +37,7 @@ class CharRecognize:
         return sim_pred
 
 def run():
-    model_path = './data/crnn.pth'
+    model_path = './models/crnn.pth'
 
     recognizer = CharRecognize(model_path)
     img_path = './data/test3.jpg'
